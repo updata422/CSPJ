@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block title %}Typing Patterns{% endblock %} {%
+block content %}
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<form id="typing-patterns-form">
+  <br>
+  <h3 align="center">TypingDNA Typing Pattern Recording</h3>
+  <p align="center">To improve the accuracy of saving your typing pattern, you need to fill out this form multiple times.</p>
+  <p align="center">Please type your username and password again.</p>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input
+      type="email"
+      class="form-control disable-autocomplete"
+      id="email"
+      name="email"
+      placeholder="Enter email"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      class="form-control disable-autocomplete"
+      id="password"
+      name="password"
+      placeholder="Enter password"
+    />
+  </div>
+  <div class="g-recaptcha" data-sitekey="6LeR6oIbAAAAAHsAh_-_l-BlfrDHaK-1icttf8nq" data-callback="verifyCaptcha"></div>
+  <div id="g-recaptcha-error"></div>
+  <br />
+  <button type="button" id="typing-patterns-button" class="btn btn-primary">
+    Submit
+  </button>
+</form>
+{% endblock %}
