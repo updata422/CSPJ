@@ -10,3 +10,4 @@ MarkupSafe==2.0.1
 SQLAlchemy==1.4.21
 Werkzeug==2.0.1
 insecure-package==0.1
+test
