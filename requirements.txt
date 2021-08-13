@@ -1,6 +1,5 @@
 aniso8601==8.0.0
 APScheduler==3.6.3
-astroid==2.4.2
 authy==2.2.6
 backcall==0.2.0
 bcrypt==3.2.0
@@ -36,7 +35,6 @@ jedi==0.18.0
 Jinja2==2.11.2
 jupyter-client==6.1.12
 jupyter-core==4.7.1
-lazy-object-proxy==1.5.1
 limits==1.5.1
 MarkupSafe==1.1.1
 marshmallow==3.7.1
